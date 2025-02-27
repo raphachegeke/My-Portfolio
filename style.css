@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
 
 :root {
     --main-color: #a800a8;
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Kaushan Script', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
