@@ -604,7 +604,10 @@ a, a:hover { text-decoration: none; }
     }
 
 /*CONTACT*/
-
+.contact-info-item a{
+    text-decoration: none;
+    color: grey;
+}
 .contact { background-color: var(--shadow-black100); }
 .contact-info h3 { font-size: 22px; color: var(--black900); font-weight: 500; margin: 0 0 40px; }
 .contact-info-item { position: relative; padding-left: 55px; margin-bottom: 30px; }
