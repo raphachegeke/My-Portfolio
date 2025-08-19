@@ -906,7 +906,7 @@
                 message: e.target.message.value
             };
 
-            const res = await fetch("https://email-server-self.vercel.app//send", {
+            const res = await fetch("https://email-server-self.vercel.app/send", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData)
