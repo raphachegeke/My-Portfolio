@@ -1,0 +1,10 @@
+.work-sizing img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.testimonial-sizing{
+    height: 410px;
+}
