@@ -1021,6 +1021,8 @@
                                     <button type="submit" class="btn-2">Send Message</button>
                                 </div>
                             </div>
+                            <!-- messages -->
+<p id="formStatus" style="margin-top:10px; display:none;"></p>
                         </form>
                     </div>
                 </div>
@@ -1072,28 +1074,39 @@
     <script src="main.js"></script>
     <script src="./script.js"></script>
 
-    <!-- <script>
-        document.getElementById("contactForm").addEventListener("submit", async (e) => {
-            e.preventDefault();
+<script>
+  const form = document.getElementById("contactForm");
+  const status = document.getElementById("formStatus");
 
-            const formData = {
-                name: e.target.name.value,
-                email: e.target.email.value,
-                phone: e.target.phone.value,
-                subject: e.target.subject.value,
-                message: e.target.message.value
-            };
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); // prevent redirect
 
-            const res = await fetch("https://email-server-self.vercel.app/api/send", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData)
-            });
+    status.style.display = "block";
+    status.textContent = "⏳ Sending...";
 
-            const data = await res.json();
-            alert(data.msg);
-        });
-    </script> -->
+    const data = new FormData(form);
+
+    try {
+      let response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        status.textContent = "✅ Message sent successfully!";
+        status.style.color = "green";
+        form.reset();
+      } else {
+        status.textContent = "❌ Something went wrong. Try again.";
+        status.style.color = "red";
+      }
+    } catch (error) {
+      status.textContent = "⚠️ Network error. Please try again.";
+      status.style.color = "red";
+    }
+  });
+</script>
 
 </body>
 
