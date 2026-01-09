@@ -25,7 +25,7 @@ Welcome to my personal portfolio! This is where I showcase my **skills, projects
 
 ## 🤝 Connect With Me  
 📧 Email: [raphachegekamunu@gmail.com](mailto:raphachegekamunu@gmail.com)  
-📱 Phone: +254 74839 7839  
+📱 Phone: +254748397839/ +254788383053
 💼 LinkedIn: [Rapha Kamunu](https://ke.linkedin.com/in/rapha-kamunu-38b1212ba)  
 
 ---
