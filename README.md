@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This is where I showcase my **skills, projects
 - **Hosting:** [Vercel](https://vercel.com/)  
 
 ## 🚀 Upcoming Features  
-✨ Dark mode  
+✨ Dark mode in the portfolios 
 ✨ Blog section  
 ✨ Enhanced animations  
 
