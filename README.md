@@ -23,6 +23,9 @@ Welcome to my personal portfolio! This is where I showcase my **skills, projects
 ✨ Blog section  
 ✨ Enhanced animations  
 
+## STACK
+MERN stack
+
 ## 🤝 Connect With Me  
 📧 Email: [raphachegekamunu@gmail.com](mailto:raphachegekamunu@gmail.com)  
 📱 Phone: +254748397839/ +254788383053
