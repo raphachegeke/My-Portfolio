@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This is where I showcase my **skills, projects
 🎨 Check out my latest work live!  
 🔗 **[Visit My Live Portfolio](https://my-portfolio-delta-self-31.vercel.app/)**  
 
-## ✨ Features  
+## ✨ Current Features  
 ✔️ Fully responsive design  
 ✔️ Modern & clean UI/UX  
 ✔️ Smooth animations & transitions  
