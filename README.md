@@ -1,4 +1,4 @@
-# 🚀 My Portfolio  
+# 🚀 My Personal Portfolio  
 
 Welcome to my portfolio! This is where I showcase my **skills, best projects, and services** as a **Web Developer & UI/UX Designer**.  
 
