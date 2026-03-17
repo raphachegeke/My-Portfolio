@@ -11,8 +11,8 @@
     <meta name="description" content="Looking for the Best Web Developer in Nairobi? Rapha Chege is a top-rated Freelance Fullstack Developer & Graphic Designer in Kenya. Expert in React, NodeJS, SEO & Custom Web Design.">
     <meta name="author" content="Rapha Chege Kamunu">
     <meta name="robots" content="index, follow">
-    <!-- Fixed Canonical URL to match requested URL structure for SEO test -->
-    <link rel="canonical" href="https://raphachegekamunu.vercel.app/index.html" />
+    <!-- FIXED SEO: Canonical URL points to root for homepage -->
+    <link rel="canonical" href="https://raphachegekamunu.vercel.app/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -32,12 +32,13 @@
     <link rel="icon" type="image/jpeg" href="assets/images/passport1.jpg">
     <link rel="apple-touch-icon" href="assets/images/passport1.jpg">
 
-    <!-- Preconnect to External Origins for Performance -->
+    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://i.postimg.cc">
 
-    <!-- External CSS (Deferred/Async where possible, otherwise standard) -->
+    <!-- External CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.min.css">
@@ -139,7 +140,15 @@
       ]
     }
     </script>
-
+    
+    <!-- Accessibility Fix: Contrast Enhancement (Inline Style) -->
+    <style>
+        /* Improves contrast for text-muted and section titles without editing external CSS files */
+        .text-muted { color: #6c757d !important; }
+        .section-title h4 { color: #555 !important; }
+        .service-item p { color: #444 !important; }
+        .details { color: #444 !important; }
+    </style>
 </head>
 
 <body>
@@ -186,9 +195,9 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="home-text">
-                                <!-- Fixed Heading Order for Accessibility -->
-                                <span class="d-block mb-2 text-uppercase text-muted">I'M THE</span>
+                                <!-- Accessibility Fix: Fixed Heading Order (H1 first) -->
                                 <h1>BEST WEB DEVELOPER IN NAIROBI</h1>
+                                <p class="h4-style">I'M THE</p>
                                 <p>I'm <strong>Rapha Chege</strong>. A Professional Freelance Web Developer & Designer. I build fast, responsive websites that rank on Google.</p>
 
                                 <div class="home-btn">
@@ -232,8 +241,9 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 ">
                         <div class="section-title">
-                            <h4>About</h4>
+                            <!-- Accessibility Fix: Heading Order -->
                             <h2>Personal <span>Details</span></h2>
+                            <p class="h4-style">About</p>
                         </div>
                     </div>
                 </div>
@@ -328,8 +338,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-title">
-                            <h4>Services</h4>
                             <h2>Professional <span>Web Services I Offer</span></h2>
+                            <p class="h4-style">Services</p>
                         </div>
                     </div>
                 </div>
@@ -403,8 +413,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-title">
-                            <h4>Portfolio</h4>
                             <h2>My latest <span>work</span></h2>
+                            <p class="h4-style">Portfolio</p>
                         </div>
                     </div>
                 </div>
@@ -419,7 +429,7 @@
                 </div>
 
                 <div class="row grid">
-                    <!-- Optimized Images: Added loading="lazy", width, height -->
+                    <!-- RESTORED PROJECT 1: Envelope -->
                     <div class="col-lg-4 col-md-6 col-sm-6 photoshop work-sizing">
                         <div class="single-work text-center mt-30">
                             <div class="work-image">
@@ -437,6 +447,7 @@
                         </div>
                     </div>
 
+                    <!-- RESTORED PROJECT 2: Business Card 1 -->
                     <div class="col-lg-4 col-md-6 col-sm-6 photoshop work-sizing">
                         <div class="single-work text-center mt-30">
                             <div class="work-image">
@@ -454,8 +465,8 @@
                         </div>
                     </div>
 
-                    <!-- Continue for other portfolio items... ensure loading="lazy", width, height, and specific alt text are added to all -->
-                     <div class="col-lg-4 col-md-6 col-sm-6 photoshop work-sizing">
+                    <!-- RESTORED PROJECT 3: Business Card 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 photoshop work-sizing">
                         <div class="single-work text-center mt-30">
                             <div class="work-image">
                                 <img loading="lazy" width="400" height="300" src="assets/images/businessCard2.jpg" alt="Creative Business Card Design Example">
@@ -472,6 +483,7 @@
                         </div>
                     </div>
 
+                    <!-- RESTORED PROJECT 4: Poster -->
                     <div class="col-lg-4 col-md-6 col-sm-6 photoshop work-sizing">
                         <div class="single-work text-center mt-30">
                             <div class="work-image">
@@ -489,6 +501,7 @@
                         </div>
                     </div>
 
+                    <!-- RESTORED PROJECT 5: Logo -->
                     <div class="col-lg-4 col-md-6 col-sm-6 photoshop work-sizing">
                         <div class="single-work text-center mt-30">
                             <div class="work-image">
@@ -506,7 +519,7 @@
                         </div>
                     </div>
 
-                    <!-- Web Projects -->
+                    <!-- RESTORED PROJECT 6: Pathways -->
                     <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
                         <div class="single-work text-center mt-30">
                             <div class="work-image">
@@ -523,8 +536,150 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Additional items omitted for brevity, apply same pattern (loading="lazy", width, height, alt) to all remaining images -->
+
+                    <!-- RESTORED PROJECT 7: Course App -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="./assets/images/course.png" alt="Course Connecting MERN Stack Application">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">MERN STACK</h3>
+                                    <ul>
+                                        <li><a href="./assets/images/course.png" class="image-popup" aria-label="View Course App Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://course-connecting.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Visit Course App"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 8: Innovex -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="./assets/images/innovex.png" alt="Innovex Software Developers Business Portfolio">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">Bootsrap Template</h3>
+                                    <ul>
+                                        <li><a href="./assets/images/innovex.png" class="image-popup" aria-label="View Innovex Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://innovexsoftwaredevelopers.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Innovex Website"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 9: Iriaini -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="https://i.postimg.cc/FsQqsRHY/20250310-033952.jpg" alt="Iriaini Tea Factory Website Design">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">HTML, CSS, JS</h3>
+                                    <ul>
+                                        <li><a href="https://i.postimg.cc/FsQqsRHY/20250310-033952.jpg" class="image-popup" aria-label="View Tea Factory Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://iriaini.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Iriaini Website"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 10: Hotel -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="./assets/images/hotel.png" alt="Hotel Management Website Template">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">Bootstrap Template</h3>
+                                    <ul>
+                                        <li><a href="https://i.postimg.cc/FsQqsRHY/20250310-033952.jpg" class="image-popup" aria-label="View Hotel Template Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://raphachegeke-fca.vercel.app/TheEvent/hotel/index.html" target="_blank" rel="noopener noreferrer" aria-label="Visit Hotel Website"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 11: Supermarket -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="./assets/images/supermarket.png" alt="Supermarket Item Scanner Web App">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">HTML, CSS, JS</h3>
+                                    <ul>
+                                        <li><a href="https://i.postimg.cc/FsQqsRHY/20250310-033952.jpg" class="image-popup" aria-label="View Supermarket Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://supermarket-item-scanner.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Supermarket App"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 12: Betting Game -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="https://i.postimg.cc/jdQ1WbDZ/20250310-034351.jpg" alt="Betting Game Web Application Interface">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">HTML, CSS, JS</h3>
+                                    <ul>
+                                        <li><a href="https://i.postimg.cc/jdQ1WbDZ/20250310-034351.jpg" class="image-popup" aria-label="View Betting Game Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://betting-game1.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Betting Game App"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 13: To-Do List -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 web-design work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="https://i.postimg.cc/fWdpNXD4/20250310-034111.jpg" alt="To-Do List Application Design">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">HTML, CSS, JS</h3>
+                                    <ul>
+                                        <li><a href="https://i.postimg.cc/fWdpNXD4/20250310-034111.jpg" class="image-popup" aria-label="View To-Do List Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://to-do-list-eight-dusky.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit To-Do List App"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RESTORED PROJECT 14: Cherry Calculator -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 mobile-app work-sizing">
+                        <div class="single-work text-center mt-30">
+                            <div class="work-image">
+                                <img loading="lazy" width="400" height="300" src="https://i.postimg.cc/qBST409Y/20250310-043214.jpg" alt="Cherry Calculator Android App Interface">
+                            </div>
+                            <div class="work-overlay">
+                                <div class="work-content">
+                                    <h3 class="work-title">Product Design</h3>
+                                    <ul>
+                                        <li><a href="https://i.postimg.cc/qBST409Y/20250310-043214.jpg" class="image-popup" aria-label="View Calculator Screenshot"><i class="fa-solid fa-plus" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://github.com/raphachegeke/Cherry-Calculator/raw/refs/heads/main/bin/cherryCalculator.apk" target="_blank" rel="noopener noreferrer" aria-label="Download Cherry Calculator APK"><i class="fa-solid fa-link" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -551,14 +706,15 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-title">
-                            <h4>Testimonials</h4>
                             <h2>What My clients <span>say</span></h2>
+                            <p class="h4-style">Testimonials</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="testimonial-slider owl-carousel">
+                        <!-- RESTORED TESTIMONIAL 1 -->
                         <div class="testimonial-item testimonial-sizing">
                             <div class="img-box">
                                 <img loading="lazy" width="100" height="100" src="https://i.postimg.cc/NMRrTkkf/1740551624649.jpg" alt="Client Joshua Macharia Photo">
@@ -567,6 +723,60 @@
                             <p>Rapha was hired to create a corporate identity. It's modern, clean and with a beautiful design.</p>
                             <h3>Joshua Macharia</h3>
                             <span>Marketing Director</span>
+                            <div class="rating" aria-label="5 out of 5 stars">
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                        <!-- RESTORED TESTIMONIAL 2 -->
+                        <div class="testimonial-item testimonial-sizing">
+                            <div class="img-box">
+                                <img loading="lazy" width="100" height="100" src="https://i.postimg.cc/xCgnWk03/20250226-100546.jpg" alt="Client Florence Wambui Photo">
+                                <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                            </div>
+                            <p>I couldn't be happier with the website that Rapha created for us. His attention to detail and creativity is unmatched.</p>
+                            <h3>Florence Wambui</h3>
+                            <span>Art Creative Director</span>
+                            <div class="rating" aria-label="5 out of 5 stars">
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                        <!-- RESTORED TESTIMONIAL 3 -->
+                        <div class="testimonial-item testimonial-sizing">
+                            <div class="img-box">
+                                <img loading="lazy" width="100" height="100" src="https://i.postimg.cc/N0JdSY3r/20250226-094820.png" alt="Client Samuel Karanja Photo">
+                                <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                            </div>
+                            <p>Working with Rapha has been an absolute pleasure. I was impressed in his attention to detail.</p>
+                            <h3>Samuel Karanja</h3>
+                            <span>Marketing Director</span>
+                            <div class="rating" aria-label="5 out of 5 stars">
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                        <!-- RESTORED TESTIMONIAL 4 -->
+                        <div class="testimonial-item testimonial-sizing">
+                            <div class="img-box">
+                                <img loading="lazy" width="100" height="100" src="https://i.postimg.cc/xdCRKhXj/20250226-095119.png" alt="Client Gladys Nduta Photo">
+                                <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                            </div>
+                            <p>I was overwhelmed with the thought of redesigning my online store, but Rapha made the process seamless.</p>
+                            <h3>Gladys Nduta</h3>
+                            <span>Small Business Owner</span>
                             <div class="rating" aria-label="5 out of 5 stars">
                                 <i class="fa-solid fa-star" aria-hidden="true"></i>
                                 <i class="fa-solid fa-star" aria-hidden="true"></i>
@@ -585,8 +795,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-title">
-                            <h4>FAQ's</h4>
                             <h2>Frequently <span>asked</span> queries</h2>
+                            <p class="h4-style">FAQ's</p>
                         </div>
                     </div>
                 </div>
@@ -616,6 +826,30 @@
                                     </div>
                                 </div>
                             </div>
+                            
+                            <!-- RESTORED FAQ ITEMS -->
+                            <div class="accordion-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-03" id="heading-03">
+                                    <h3 itemprop="name">Do you offer freelance web design services in Kenya?</h3>
+                                </div>
+                                <div class="collapse" id="collapse-03" data-parent="#accordion" aria-labelledby="heading-03">
+                                    <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+                                        <p itemprop="text">Yes, I am a freelance web designer and developer available for hire. I create modern, mobile-friendly websites.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                                <div class="accordion-header collapsed" data-toggle="collapse" data-target="#collapse-04" id="heading-04">
+                                    <h3 itemprop="name">What technologies do you use for web development?</h3>
+                                </div>
+                                <div class="collapse" id="collapse-04" data-parent="#accordion" aria-labelledby="heading-04">
+                                    <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+                                        <p itemprop="text">I specialize in modern tech stacks including React, NodeJS, Bootstrap, and the MERN stack.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -627,8 +861,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-title">
-                            <h4>Contact Me</h4>
                             <h2>Get <span>in touch</span></h2>
+                            <p class="h4-style">Contact Me</p>
                         </div>
                     </div>
                 </div>
